@@ -1,0 +1,41 @@
+{
+  "name": "subarray-ring-buffer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An efficient ring / circular binary buffer returning a sub-array on write",
+  "keywords": [
+    "array",
+    "subarray",
+    "circular",
+    "memory",
+    "efficient",
+    "fast",
+    "ring",
+    "buffer",
+    "view",
+    "binary",
+    "uint8array"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristian/subarray-ring-buffer.git"
+  },
+  "homepage": "https://github.com/kristian/subarray-ring-buffer",
+  "bugs": {
+    "url": "https://github.com/kristian/subarray-ring-buffer/issues"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bl": "^6.0.19"
+  },
+  "devDependencies": {
+    "ava": "^6.2.0"
+  },
+  "packageManager": "yarn@4.6.0"
+}
